@@ -1,0 +1,114 @@
+.text{
+    position: fixed;
+    top: 10px; left: 10px;
+    width: 20px; height: 20px;
+    color: #ddd;
+    z-index: 500;
+}
+
+
+
+.fixed_bg{
+    position: fixed; 
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+}
+
+.slide{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    color: #fff;
+    padding: 50px;
+}
+
+.slide-content{
+    position: relative;
+    top: 50%; 
+    width: 60%; 
+    margin: 0 auto;
+    left: -7%;
+    text-align: center;
+}
+
+#slide01{
+    background: url(img/bible.jpg) -25px;
+    z-index: 200;
+}
+#slide01 .slide-content{color: #000; left: 0%; top: 65%;}
+#slide01 .slide-content h2{font-size: 40px;}
+#slide01 .slide-content p{font-size: 20px;}
+
+
+#slide02{
+    background: url(img/genesis.jpg);
+    background-size: cover;
+}
+#slide02 .slide-content{
+    top: 27%;
+    font-size: 40px;}
+
+
+#slide03{
+    background: url(img/light.png) no-repeat 700px 490px;
+}
+
+#slide04{
+    background: url(img/d&n.jpg) no-repeat 550px 490px;
+    z-index: 200;
+}
+#slide04 .slide-content h2{font-size: 40px;}
+#slide04 .slide-content p{font-size: 20px;}
+
+#slide05{
+    background: url(img/sky.jpg);
+    background-size: cover;
+}
+#slide05 .slide-content{
+    top: 55%;}
+#slide05 .slide-content h2{font-size: 40px;}
+#slide05 .slide-content p{font-size: 20px;}
+
+#slide04{
+    background: url(img/d&n.jpg) no-repeat 550px 490px;
+    z-index: 200;
+}
+
+#slide06 .slide-content{
+    position: absolute;
+    left:-10%
+}
+    
+#slide07 .slide-content{
+    position: absolute;
+    top:2%; right:0
+}
+
+#slide08{
+    background: url(img/farm.jpg);
+    background-size: cover;
+}
+
+#slide08 .slide-content p{
+    color: #000;
+    font-size: 24px;
+    position: absolute;
+    top: -280px; right: -180px;
+    font-weight: bold;
+}
+
+
+#slide09{
+    background: url(img/sun.jpg) no-repeat;
+    z-index: 200;
+}
+
+#slide01{
+    background: url(img/moon.jpg) no-repeat;
+    z-index: 200;
+}
+
+#slide11{
+    background: url(img/stars.gif) no-repeat;
+    z-index: 200;
+}
